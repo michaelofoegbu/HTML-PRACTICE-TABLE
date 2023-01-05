@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(204, 202, 202);   
+        }
+        nav{
+            background-color: rgb(109, 107, 107);
+            display: flex;
+            
+        }
+        ul{
+            display: flex;
+            margin: auto;
+        }
+        li{
+            list-style: none;
+            display: flex;
+            padding: 25px;
+            text-align: center;
+            
+        }
+        a{
+            color: white;
+        }
+        form{
+            text-align: center;
+        }
+        section{
+            margin: auto;
+            width: 35vw;
+            height: 60vh;
+            background-color: aliceblue;
+            text-align: left;
+            border-radius: 10px;
+        }
+        div{
+            margin: 20px 10px;
+            padding: 20px 10px;
+        }
+        .form{
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            width: 95%;
+            background-color: transparent;
+        }
+        .btn-cont{
+            text-align: center;
+        }
+        .btn{
+            padding: 15px;
+            background-color: rgb(151, 151, 194);
+            border: none;
+            border-radius: 15px;
+            width: 7em;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <form action="">
+        <h3>Wanna come on my next trip?, Contact Me.</h3>
+        <section>
+            <div>
+                <input class="form" type="text" name="Name" placeholder="Full name" required>
+            </div>
+            <div>
+                <input class="form" type="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <input class="form" type="number" name="phone" placeholder="Phone Number" required>
+            </div>
+            <div class="btn-cont">
+                <input class="btn" type="button" name="btn" value="Submit">
+            </div>
+            
+        </section>
+
+        
+        
+        
+    </form>
+    
+</body>
+</html>

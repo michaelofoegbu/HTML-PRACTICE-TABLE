@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        form{
+            background-color: white;
+            width: 30%;
+            margin: auto;
+            padding: 50px 35px;
+        }
+        h1{
+            margin: 20px ;
+            text-align: center;
+        }
+        div{
+            margin: 12px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>SIGN UP</h1>
+    <form action="" method="get">
+        
+        <div>
+            USERNAME <br>
+            <input type="text" name="username" placeholder=" enter your username" required maxlength="8">
+        </div>
+        <div>
+            Email <br>
+            <input type="email" name="email" placeholder="email@gmail.com" required>
+        </div>
+        <div>
+            Password <br>
+            <input type="password" name="password" placeholder="enter your password here" required maxlength="12">
+        </div>
+        <div>
+            Confirm Password <br>
+            <input type="password" name="password" placeholder="retype your password here" required maxlength="12">
+        </div>
+        <div>
+            Gender: <br>
+            <input type="radio" name="male"> Male </input>
+            <input type="radio" name="female"> Female </input>
+            <input type="radio" name="other"> Other </input>
+        </div>
+        <div>
+            DATE OF BIRTH: <br>
+            <input type="date" name="date" max="2013-01-01" required>
+            <!-- <input type="date" name="date" min="1999-01-01"> -->
+        </div>
+        <div>
+            Upload a selfie: <br>
+            <input type="file" name="image">
+        </div>
+        <div>
+            Security Question: <br>
+            <select name="question" id="" multiple>
+                <option value="first-pet-name">What was your first pet name</option>
+                <option value="first-job">What was your job</option>
+                <option value="nickname">What is your nickname</option>
+
+            </select>
+        </div>
+        <div>
+            Choose your langauge
+            <input list="technologies" name="technology">
+            <datalist id="technologies">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JAVASCRIPT">
+                <option value="JAVA">
+                <option value="C++">
+                <option value="GIT">
+                <option value="REACT">
+                <option value="REDUX">
+                <option value="ANGULAR">
+                <option value="PYTHON">
+                <option value="PHP">
+                <option value="Django">
+            </datalist>
+        </div>
+        <div>
+            <textarea name="answer" id="" cols="30" rows="6"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="terms-condition" value="accept">I agree to accept the terms and condition </input>
+        </div>
+        <input type="reset" name="" id="">
+        <input type="submit" value="register">
+        <p>
+            <h2>visit the upgraded form page <a href="form.html"><b>HERE</b></a></h2>
+        </p>
+
+
+
+    </form>
+</body>
+</html>
